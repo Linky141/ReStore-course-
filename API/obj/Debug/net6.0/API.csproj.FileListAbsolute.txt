@@ -143,3 +143,6 @@ C:\Users\tomas\OneDrive\Dokumenty\PROGRAMOWANIE\VSCode\ReStore\API\bin\Debug\net
 C:\Users\tomas\OneDrive\Dokumenty\PROGRAMOWANIE\VSCode\ReStore\API\bin\Debug\net6.0\System.Text.Encodings.Web.dll
 C:\Users\tomas\OneDrive\Dokumenty\PROGRAMOWANIE\VSCode\ReStore\API\bin\Debug\net6.0\System.Text.Json.dll
 C:\Users\tomas\OneDrive\Dokumenty\PROGRAMOWANIE\VSCode\ReStore\API\bin\Debug\net6.0\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
+C:\Users\tomas\OneDrive\Dokumenty\PROGRAMOWANIE\VSCode\ReStore\API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\tomas\OneDrive\Dokumenty\PROGRAMOWANIE\VSCode\ReStore\API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\tomas\OneDrive\Dokumenty\PROGRAMOWANIE\VSCode\ReStore\API\bin\Debug\net6.0\CloudinaryDotNet.dll
