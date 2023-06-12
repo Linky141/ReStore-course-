@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "tau7nVrUy53E8kS/LqsQItPXmntRV5L837PJhuJgn4I=",
+  "Hash": "HjuWteG1ztrvUhrj+qVz3nZSQgewI8Jzl9DOmqG2z4U=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -612,12 +612,12 @@
       "OriginalItemSpec": "wwwroot\\static\\js\\787.c4e7f8f9.chunk.js.map"
     },
     {
-      "Identity": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\static\\js\\main.c65ca55d.js",
+      "Identity": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\static\\js\\main.2592a81e.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.c65ca55d.js",
+      "RelativePath": "static/js/main.2592a81e.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -626,15 +626,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.c65ca55d.js"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.2592a81e.js"
     },
     {
-      "Identity": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\static\\js\\main.c65ca55d.js.LICENSE.txt",
+      "Identity": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\static\\js\\main.2592a81e.js.LICENSE.txt",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.c65ca55d.js.LICENSE.txt",
+      "RelativePath": "static/js/main.2592a81e.js.LICENSE.txt",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -643,15 +643,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.c65ca55d.js.LICENSE.txt"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.2592a81e.js.LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\static\\js\\main.c65ca55d.js.map",
+      "Identity": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\static\\js\\main.2592a81e.js.map",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\",
       "BasePath": "_content/API",
-      "RelativePath": "static/js/main.c65ca55d.js.map",
+      "RelativePath": "static/js/main.2592a81e.js.map",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -660,7 +660,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\static\\js\\main.c65ca55d.js.map"
+      "OriginalItemSpec": "wwwroot\\static\\js\\main.2592a81e.js.map"
     },
     {
       "Identity": "C:\\Users\\tomas\\OneDrive\\Dokumenty\\PROGRAMOWANIE\\VSCode\\ReStore\\API\\wwwroot\\static\\media\\slick.2630a3e3eab21c607e21.svg",
