@@ -1,45 +1,41 @@
-using System.Text.Json;
-using Microsoft.AspNetCore.Mvc;
+namespace API.Middleware;
 
-namespace API.Middleware
+public class ExceptionMiddleware
 {
-    public class ExceptionMiddleware
+    public RequestDelegate Next { get; }
+    private readonly ILogger<ExceptionMiddleware> logger;
+    public IHostEnvironment Env { get; }
+    public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger, IHostEnvironment env)
     {
-        public RequestDelegate Next { get; }
-        private readonly ILogger<ExceptionMiddleware> logger;
-        public IHostEnvironment Env { get; }
-        public ExceptionMiddleware(RequestDelegate next, ILogger<ExceptionMiddleware> logger, IHostEnvironment env)
+        this.Env = env;
+        this.logger = logger;
+        this.Next = next;
+    }
+
+    public async Task InvokeAsync(HttpContext context)
+    {
+        try
         {
-            this.Env = env;
-            this.logger = logger;
-            this.Next = next;
+            await Next(context);
         }
-
-        public async Task InvokeAsync(HttpContext context)
+        catch (Exception ex)
         {
-            try
+            logger.LogError(ex, ex.Message);
+            context.Response.ContentType = "application/json";
+            context.Response.StatusCode = 500;
+
+            var response = new ProblemDetails
             {
-                await Next(context);
-            }
-            catch (Exception ex)
-            {
-                logger.LogError(ex, ex.Message);
-                context.Response.ContentType = "application/json";
-                context.Response.StatusCode = 500;
+                Status = 500,
+                Detail = Env.IsDevelopment() ? ex.StackTrace?.ToString() : null,
+                Title = ex.Message
+            };
 
-                var response = new ProblemDetails
-                {
-                    Status = 500,
-                    Detail = Env.IsDevelopment() ? ex.StackTrace?.ToString() : null,
-                    Title = ex.Message
-                };
+            var options = new JsonSerializerOptions{PropertyNamingPolicy = JsonNamingPolicy.CamelCase};
 
-                var options = new JsonSerializerOptions{PropertyNamingPolicy = JsonNamingPolicy.CamelCase};
+            var json = JsonSerializer.Serialize(response, options);
 
-                var json = JsonSerializer.Serialize(response, options);
-
-                await context.Response.WriteAsync(json);
-            }
+            await context.Response.WriteAsync(json);
         }
     }
 }
