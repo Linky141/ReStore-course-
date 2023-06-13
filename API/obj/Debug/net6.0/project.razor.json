@@ -11,6 +11,9 @@
     ]
   },
   "ProjectWorkspaceState": {
+<<<<<<< HEAD
+    "TagHelpers": [],
+=======
     "TagHelpers": [
       {
         "HashCode": -606812230,
@@ -18369,6 +18372,7 @@
         }
       }
     ],
+>>>>>>> 6968fcf5b532428e04c289e0069392b343514d39
     "CSharpLanguageVersion": 1000
   },
   "RootNamespace": "API",
